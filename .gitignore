@@ -1,0 +1,42 @@
+# node_modules：依赖包目录，通常不需要提交
+node_modules/
+
+# 构建产物
+/dist
+/build
+/.output
+
+# HBuilderX和uni-app相关缓存和配置
+/.hbuilderx
+/uniapp.d.ts
+/manifest.json.bak
+
+# 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量配置
+.env
+.env.*.local
+
+# macOS和系统文件
+.DS_Store
+Thumbs.db
+
+# 其他常见忽略
+*.local
+*.log
+*.swp
+*.tmp
+
+# 微信开发者工具自动生成的文件（如有小程序）
+project.private.config.json
+miniprogram_npm/
